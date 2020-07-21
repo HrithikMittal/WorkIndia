@@ -1,0 +1,104 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
+.rel{
+    position: relative;
+}
+.fixed{position: fixed;}
+.abs{position: absolute;}
+
+.bl{
+    display: block;
+}
+
+.abc{
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.font{
+    font-family: 'Open Sans','sans-serif';
+}
+
+.fontn{
+    font-family: 'Open Sans','sans-serif';
+    font-weight: normal;
+}
+
+.fontb{
+    font-family: 'Open Sans','sans-serif';
+    font-weight: bold;
+}
+
+select,input{
+    outline: none;
+}
+
+.fontl{
+    font-family: 'Open Sans','sans-serif';
+    font-weight: lighter;
+}
+
+
+.absFill{
+    top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+.aic{
+    align-items: center;
+}
+.s24{
+    font-size: 24px;
+}
+
+.s12{
+    font-size: 12px;
+}
+.s14{
+    font-size: 14px;
+}
+.s15{
+    font-size: 15px;
+}
+
+.s18{
+    font-size: 18px;
+}
+
+.s16{
+    font-size: 16px;
+}
+
+.s20{
+    font-size: 20px;
+}
+
+.c777{
+    color: #777;
+}
+
+.c333{
+    color:#333
+}
