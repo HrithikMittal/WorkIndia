@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ChatItem from "./chatitem";
 
-function Chatbox() {
+function Chatbox(props) {
   const [chat, setChat] = useState([
     {
       Id: 1,
@@ -55,6 +55,188 @@ function Chatbox() {
       stamp: "1:21 PM",
       status: "sent",
     },
+    {
+      Id: 3,
+      user: {
+        Id: 123,
+        name: "Kaushal",
+      },
+      meta: {
+        type: "text",
+        text: "my reg no:",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 4,
+      user: {
+        Id: global.fire.me.Id,
+        name: "Adhikansh Mittal",
+      },
+      meta: {
+        type: "text",
+        text: "17BCE2026",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 3,
+      user: {
+        Id: 123,
+        name: "Kaushal",
+      },
+      meta: {
+        type: "text",
+        text: "my reg no:",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 4,
+      user: {
+        Id: global.fire.me.Id,
+        name: "Adhikansh Mittal",
+      },
+      meta: {
+        type: "text",
+        text: "17BCE2026",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 3,
+      user: {
+        Id: 123,
+        name: "Kaushal",
+      },
+      meta: {
+        type: "text",
+        text: "my reg no:",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 4,
+      user: {
+        Id: global.fire.me.Id,
+        name: "Adhikansh Mittal",
+      },
+      meta: {
+        type: "text",
+        text: "17BCE2026",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 3,
+      user: {
+        Id: 123,
+        name: "Kaushal",
+      },
+      meta: {
+        type: "text",
+        text: "my reg no:",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 4,
+      user: {
+        Id: global.fire.me.Id,
+        name: "Adhikansh Mittal",
+      },
+      meta: {
+        type: "text",
+        text: "17BCE2026",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 3,
+      user: {
+        Id: 123,
+        name: "Kaushal",
+      },
+      meta: {
+        type: "text",
+        text: "my reg no:",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 4,
+      user: {
+        Id: global.fire.me.Id,
+        name: "Adhikansh Mittal",
+      },
+      meta: {
+        type: "text",
+        text: "17BCE2026",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 3,
+      user: {
+        Id: 123,
+        name: "Kaushal",
+      },
+      meta: {
+        type: "text",
+        text: "my reg no:",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 4,
+      user: {
+        Id: global.fire.me.Id,
+        name: "Adhikansh Mittal",
+      },
+      meta: {
+        type: "text",
+        text: "17BCE2026",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 3,
+      user: {
+        Id: 123,
+        name: "Kaushal",
+      },
+      meta: {
+        type: "text",
+        text: "my reg no:",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
+    {
+      Id: 4,
+      user: {
+        Id: global.fire.me.Id,
+        name: "Adhikansh Mittal",
+      },
+      meta: {
+        type: "text",
+        text: "17BCE2026",
+      },
+      stamp: "1:21 PM",
+      status: "sent",
+    },
   ]);
 
   let chatList = [];
@@ -70,7 +252,7 @@ function Chatbox() {
             <img src="http://placeimg.com/100/100/people?id=admin"></img>
           </button>
           <div className="usr flex flex-col">
-            <h2 className="s15 fontb name c333">Adhikansh Mittal</h2>
+            <h2 className="s15 fontb name c333">{props.name}</h2>
             <h2 className="s12 fontn lo c777">Last Online 3 Mins ago</h2>
           </div>
         </div>

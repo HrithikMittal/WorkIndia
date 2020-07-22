@@ -1,0 +1,52 @@
+[{
+    "Id": 1,
+    "user": {
+      "Id": 123,
+      "name": "Kaushal"
+    },
+    "meta": {
+      "type": "text",
+      "text": "Hi I am Adhikansh"
+    },
+    "stamp": "1:21 PM",
+    "status": "sent"
+  },
+  {
+    "Id": 2,
+    "user": {
+      "Id": 123,
+      "name": "Kaushal"
+    },
+    "meta": {
+      "type": "text",
+      "text": "Adhikansh Mittal"
+    },
+    "stamp": "1:21 PM",
+    "status": "sent"
+  },
+  {
+    "Id": 3,
+    "user": {
+      "Id": 123,
+      "name": "Kaushal"
+    },
+    "meta": {
+      "type": "text",
+      "text": "my reg no:"
+    },
+    "stamp": "1:21 PM",
+    "status": "sent"
+  },
+  {
+    "Id": 4,
+    "user": {
+      "Id": 1,
+      "name": "Adhikansh Mittal"
+    },
+    "meta": {
+      "type": "text",
+      "text": "17BCE2026"
+    },
+    "stamp": "1:21 PM",
+    "status": "sent"
+  }]
